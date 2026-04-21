@@ -1,0 +1,223 @@
+:root{
+    --tomato: #C85555;
+    --mustard: #EAA624;
+    --olive: #767B39;
+    --sky: #AADCF2;
+    --peach: #F7BCB0;
+    --text-dark: #2A2A2A;
+    --paper: #FFF8F3;
+    --radius: 10px;
+    --shadow: 4px 4px 0px var(--olive);
+}
+
+/* global */
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    background-color: var(--paper);
+    color: var(--text-dark);
+    line-height: 1.6;
+    background-image: url("textures/paper-grain.png");
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    font-family: "Shrikhand", cursive;
+    color: var(--tomato);
+    margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    border-radius: var(--radius);
+}
+
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a:hover {
+    color: var(--tomato);
+}
+
+/* hero */
+#hero{
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: 4px solid var(--olive);
+}
+.cta-btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--tomato);
+    color: white;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: 0.2s ease;
+}
+
+.cta-btn:hover{
+    background-color: var(--mustard);
+    animation: wiggle 0.3s ease-in-out;
+}
+
+/* wiggle movement */
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% { transform: rotate(2deg); }
+    75% { transform: rotate(-2deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* section titles */
+.section-title {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 120px;
+    height: 12px;
+    background-color: var(--mustard);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-2deg);
+    border-radius: 4px;
+}
+
+/* project grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background-color: var(--peach);
+    padding: 1rem;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transform: rotate(-1deg);
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.project-card:hover {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--tomato);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    color: var(--mustard);
+}
+
+/* writing */
+.writing-list {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.writing-item {
+    background-color: var(--sky);
+    padding: 1rem;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+}
+
+.writing-link {
+    color: var(--tomato);
+    font-weight: bold;
+}
+
+/* skills */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.skill-category {
+    background-color: var(--sky);
+    padding: 1rem;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+/* contact */
+
+#contact {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--peach);
+    border-top: 4px solid var(--olive);
+}
+
+.contact-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--tomato);
+    color: white;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+}
+
+.contact-btn:hover {
+    background-color: var(--mustard);
+}
+
+/* footer */
+#contact {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: var(--peach);
+    border-top: 4px solid var(--olive);
+}
+
+.contact-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--tomato);
+    color: white;
+    border: 3px solid var(--olive);
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+}
+
+.contact-btn:hover {
+    background-color: var(--mustard);
+}
