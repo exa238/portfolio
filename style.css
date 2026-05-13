@@ -85,11 +85,21 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
+h3{
+    padding-left: 5px;
+}
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;
     margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .project-card {
