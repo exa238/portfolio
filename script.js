@@ -6,3 +6,10 @@ document.querySelectorAll('.project-card').forEach(card => {
         }
     });
 });
+
+document.querySelectorAll('.writing-item').forEach(item => {
+    item.addEventListener('click', () => {
+        const link = item.dataset.link;
+        if (link) window.location.href = link;
+    });
+});
