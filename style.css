@@ -80,7 +80,7 @@ body{
 .nav li:nth-child(4) a { background: var(--tomato); } /* contact */
 
 
-/* ADJUST YOUR H1 HERE!!!!!!!! */
+/* ADJUST YOUR H1 HERE */
 h1{
     text-align: center;
 }
@@ -107,14 +107,14 @@ h3{
     border-radius: var(--radius);
     overflow: hidden;
     cursor: pointer;
-    box-shadow: var(--shadow-chunky);
+    box-shadow: 6px 6px 0px var(--peach);
     transition: transform .25s ease, box-shadow .25s ease;
     border: 3px solid black;
 }
 
 .project-card:hover {
     transform: translate(-4px) scale(1.03);
-    box-shadow: 10px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 0px var(--peach);
 }
 
 .project-card img {
