@@ -1,0 +1,220 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Patrick+Hand+SC&family=Sekuya&family=Shrikhand&display=swap');
+
+   /* root */
+   
+   :root {
+       --tomato: #C85555;
+       --mustard: #EAA624;
+       --olive: #767B39;
+       --sky: #AADCF2;
+       --peach: #F7BCB0;
+       --cream: #FFF7EB;
+       --ink: #2A2A2A;
+   
+       --radius: 14px;
+       --shadow-chunky: 6px 6px 0px rgba(0,0,0,0.15);
+   }
+
+   /* logo */
+
+   .logo{
+    color:#C85555;
+    text-align: center;
+    font-family: Shrikhand;
+    
+    }  
+    
+    /* nav */
+   .nav ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .nav li a {
+        display: block;
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border: 3px solid black;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.25s ease, box-shadow 0.25s 
+        /* position: relative */
+        /* overflow: visible; */
+    }
+
+    .hero-content{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav li a:hover::before,
+    .nav li a:hover::after {
+        content: "✦";
+        position: absolute;
+        color: #EAA624;
+        font-size: 14px;
+        animation: sparkle 0.8s ease-out forwards;
+    }
+    .nav li a:hover::before {
+        top: -10px;
+        left: -10px;
+    }
+
+    .nav li a:hover::after {
+        bottom: -10px;
+        right: -10px;
+    }
+
+    @keyframes sparkle {
+        0% { transform: scale(0) rotate(0deg); opacity: 0; }
+        50% { transform: scale(1.4) rotate(20deg); opacity: 1; }
+        100% { transform: scale(0) rotate(40deg); opacity: 0; }
+    }
+
+    .nav li a:hover{
+        transform: translate(-4px)scale(1.05);
+        box-shadow: 0 8px 20px #F7BCB0;
+    }
+
+    .nav li:nth-child(1) a { background: var(--olive); } /* work */
+    .nav li:nth-child(2) a { background: var(--sky); } /* writing */
+    .nav li:nth-child(3) a { background: var(--mustard); } /* skills */
+    .nav li:nth-child(4) a { background: var(--tomato); } /* contact */
+    .nav li:nth-child(5) a { background: var(--peach); } /* Value Proposition */
+
+
+
+    /* ---------- background ---------- */
+   
+   body {
+       margin: 0;
+       font-family: "Karla", sans-serif;
+       color: var(--ink);
+       line-height: 1.7;
+       background-color: var(--cream);
+   }
+   
+   /* ---------- section ---------- */
+   
+   .case-section {
+       max-width: 1200px;
+       margin: 4rem auto;
+       padding: 2rem;
+       background-color: var(--peach); /* cream with transparency */
+       border-radius: var(--radius);
+       border: 3px solid var(--ink);
+       box-shadow: 6px 6px 0px var(--tomato);
+   }
+   
+   /* ---------- headers ---------- */
+   
+   .case-section h2 {
+       font-family: "Bricolage Grotesque", sans-serif;
+       font-size: 2rem;
+       margin-bottom: 1rem;
+       color: var(--ink);
+   }
+   
+   .case-hero h1 {
+       font-family: "Shrikhand", cursive;
+       font-size: 3rem;
+       color: var(--tomato);
+   }
+   
+   .case-hero .subtitle {
+       font-family: "Inter", sans-serif;
+       font-size: 1.2rem;
+       color: var(--tomato);
+   }
+   
+   /* ---------- hero---------- */
+   
+   .case-hero {
+       text-align: center;
+       padding: 5rem 2rem;
+   }
+   
+   /* ---------- column layouts---------- */
+   
+   .two-col {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 1.5rem;
+   }
+   
+   .card {
+       background-color: var(--sky);
+       padding: 1.5rem;
+       border-radius: var(--radius);
+       border: 3px solid var(--ink);
+       box-shadow: var(--shadow-chunky);
+   }
+   
+   /* ---------- persona cards---------- */
+   
+   .persona-grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+       gap: 1.5rem;
+   }
+   
+   .persona-card {
+       background-color: var(--mustard);
+       padding: 1rem;
+       border-radius: var(--radius);
+       border: 3px solid var(--ink);
+       box-shadow: var(--shadow-chunky);
+   }
+   
+   /* ---------- variation grid ---------- */
+   
+   .variation-grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+       gap: 1.5rem;
+   }
+   
+   .variation-grid img {
+       width: 100%;
+       border-radius: var(--radius);
+       border: 3px solid var(--olive);
+       box-shadow: var(--shadow-chunky);
+   }
+   
+   /* ---------- feedback cards---------- */
+   
+   .feedback-grid {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap: 1.5rem;
+   }
+   
+   .feedback-card {
+       background-color: var(--peach);
+       padding: 1.5rem;
+       border-radius: var(--radius);
+       border: 3px solid var(--olive);
+       box-shadow: var(--shadow-chunky);
+   }
+   
+   /* ---------- storyboard ---------- */
+   
+   .storyboard-img {
+       width: 100%;
+       border-radius: var(--radius);
+       border: 3px solid var(--olive);
+       box-shadow: var(--shadow-chunky);
+       margin-top: 1rem;
+   }
+
+   footer{
+    text-align: center;
+   }
+   
