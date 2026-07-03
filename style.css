@@ -103,7 +103,7 @@ h3{
 
 /* MY WORK */
 
-.case-studies {
+.tier-one {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;
@@ -112,7 +112,7 @@ h3{
     padding-right: 10px;
 }
 
-.creative-projects {
+.tier-two {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;

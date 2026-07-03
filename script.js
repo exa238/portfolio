@@ -13,3 +13,5 @@ document.querySelectorAll('.writing-item').forEach(item => {
         if (link) window.location.href = link;
     });
 });
+
+
