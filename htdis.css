@@ -16,14 +16,21 @@
        --shadow-chunky: 6px 6px 0px rgba(0,0,0,0.15);
    }
 
+
    /* logo */
 
    .logo{
-    color:#C85555;
-    text-align: center;
     font-family: Shrikhand;
+    color: black;
+    -webkit-text-stroke: 0.5px #E5989B;
+    text-align: center;
+}
+    .logo a{
+        color: inherit;
+        text-decoration: none;
+    }
     
-    }  
+
     
     /* nav */
    .nav ul{
@@ -125,7 +132,7 @@
    .case-hero h1 {
        font-family: "Shrikhand", cursive;
        font-size: 3rem;
-       color: var(--tomato);
+       color: #264431;
    }
    
    .case-hero .subtitle {

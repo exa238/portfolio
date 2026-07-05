@@ -19,10 +19,14 @@
    /* logo */
 
    .logo{
-    color:#C85555;
-    text-align: center;
     font-family: Shrikhand;
-    
+    color: black;
+    -webkit-text-stroke: 0.5px #E5989B;
+    text-align: center;
+}
+    .logo a{
+        color: inherit;
+        text-decoration: none;
     }  
     
     /* nav */
