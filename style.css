@@ -6,14 +6,21 @@
 }
 .logo{
     font-family: Shrikhand;
-    color: black;
-    -webkit-text-stroke: 0.5px #E5989B;
+    /* original theme */
+    
+    /* color: black; */
+
+    /* new theme */
+    color: #2e211c;
+
+
+    /* original theme */
+    /* -webkit-text-stroke: 0.5px #E5989B; */
+    /* new theme */
+    -webkit-text-stroke: 0.5px #9cbbb7;
 }
 body{
     background-size: 40px 40px;
-    /* background-image: */
-    /* linear-gradient(to right, #F7BCB0 1px, transparent 1px),
-    linear-gradient(to bottom, #F7BCB0 1px, transparent 1px); */
     background-color: #FFFFFF;
 }
 .nav ul{
@@ -70,13 +77,22 @@ body{
 
 .nav li a:hover{
     transform: translate(-4px)scale(1.05);
-    box-shadow: 0 8px 20px #EFBEBF;
+    box-shadow: 0 8px 20px #9cbbb7;
 }
 
-.nav li:nth-child(1) a { background: #E5989B; } /* work */
-.nav li:nth-child(2) a { background: #6D6875; } /* writing */
-.nav li:nth-child(3) a { background: #B5838D; } /* skills */
-.nav li:nth-child(4) a { background: #FFCDB2; } /* contact */
+/* original light pink theme */
+
+/* .nav li:nth-child(1) a { background: #E5989B; }
+.nav li:nth-child(2) a { background: #6D6875; }
+.nav li:nth-child(3) a { background: #B5838D; } 
+.nav li:nth-child(4) a { background: #FFCDB2; }  */
+
+
+/* new theme */
+.nav li:nth-child(1) a { background: #2e211c; } 
+.nav li:nth-child(2) a { background: #c06226; }
+.nav li:nth-child(3) a { background: #9cbbb7; }
+.nav li:nth-child(4) a { background: #984619; }
 
 
 /* ADJUST YOUR H1 HERE */
@@ -128,7 +144,7 @@ h3{
 
 .project-card:hover {
     transform: translate(-4px) scale(1.03);
-    box-shadow: 10px 10px 0px #E5989B;
+    box-shadow: 10px 10px 0px #9cbbb7;
 }
 
 .project-card img {
@@ -159,7 +175,7 @@ h3{
     display: inline-block;
     margin: 12px 16px 0;
     padding: 8px 16px;
-    background: #FFE4D6;
+    background: #c06226;
     color: black;
     border: 3px solid black;
     border-radius: 10px;
@@ -208,7 +224,7 @@ h3{
 
 .writing-item:hover {
     transform: translate(-4px) scale(1.02);
-    box-shadow: 10px 10px 0px #E5989B;
+    box-shadow: 10px 10px 0px #9cbbb7;
 }
 
 .writing-thumb {
@@ -244,7 +260,7 @@ h3{
 .writing-button {
     display: inline-block;
     padding: 6px 14px;
-    background: #FFE4D6;
+    background: #c06226;
     border: 3px solid black;
     border-radius: 10px;
     font-weight: bold;

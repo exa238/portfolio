@@ -4,13 +4,6 @@
    /* root */
    
    :root {
-       --tomato: #C85555;
-       --mustard: #EAA624;
-       --olive: #767B39;
-       --sky: #AADCF2;
-       --peach: #F7BCB0;
-       --cream: #FFF7EB;
-       --ink: #2A2A2A;
    
        --radius: 14px;
        --shadow-chunky: 6px 6px 0px rgba(0,0,0,0.15);
@@ -20,8 +13,8 @@
 
    .logo{
     font-family: Shrikhand;
-    color: black;
-    -webkit-text-stroke: 0.5px #E5989B;
+    color: #2e211c;
+    -webkit-text-stroke: 0.5px #9cbbb7;
     text-align: center;
 }
     .logo a{
@@ -84,14 +77,13 @@
 
     .nav li a:hover{
         transform: translate(-4px)scale(1.05);
-        box-shadow: 0 8px 20px #F7BCB0;
+        box-shadow: 0 8px 20px #9cbbb7;
     }
 
-    .nav li:nth-child(1) a { background: var(--olive); } /* work */
-    .nav li:nth-child(2) a { background: var(--sky); } /* writing */
-    .nav li:nth-child(3) a { background: var(--mustard); } /* skills */
-    .nav li:nth-child(4) a { background: var(--tomato); } /* contact */
-    .nav li:nth-child(5) a { background: var(--peach); } /* Value Proposition */
+    .nav li:nth-child(1) a { background: #2e211c; }
+    .nav li:nth-child(2) a { background: #c06226; }
+    .nav li:nth-child(3) a { background: #9cbbb7; }
+    .nav li:nth-child(4) a { background: #984619; }
 
 
 
@@ -100,9 +92,9 @@
    body {
        margin: 0;
        font-family: "Times New Roman", serif;
-       color: var(--ink);
+       color: black;
        line-height: 1.7;
-       background-color: var(--cream);
+       background-color: white;
    }
    
    /* ---------- section ---------- */
@@ -111,32 +103,33 @@
        max-width: 1200px;
        margin: 4rem auto;
        padding: 2rem;
-       background-color: var(--peach); /* cream with transparency */
+       background-color: whitesmoke; /* cream with transparency */
        border-radius: var(--radius);
-       border: 3px solid var(--ink);
-       box-shadow: 6px 6px 0px var(--tomato);
+       border: 3px solid black;
+       box-shadow: 6px 6px 0px black;
    }
    
    /* ---------- headers ---------- */
    
    .case-section h2 {
-       font-family: "Bricolage Grotesque", sans-serif;
+       font-family: "Inter", sans-serif;
        font-size: 2rem;
        margin-bottom: 1rem;
-       color: var(--ink);
+       color: black;
    }
    
    .case-hero h1 {
        font-family: "Shrikhand", cursive;
        font-size: 3rem;
-       color: var(--tomato);
+       color: #984619;
+       -webkit-text-stroke: 0.5px black;
    }
    
-   .case-hero .subtitle {
+   /* .case-hero .subtitle {
        font-family: "Inter", sans-serif;
        font-size: 1.2rem;
        color: var(--tomato);
-   }
+   } */
    
    /* ---------- hero---------- */
    
@@ -154,68 +147,10 @@
    }
    
    .card {
-       background-color: var(--sky);
        padding: 1.5rem;
        border-radius: var(--radius);
-       border: 3px solid var(--ink);
+       border: 3px solid black;
        box-shadow: var(--shadow-chunky);
-   }
-   
-   /* ---------- persona cards---------- */
-   
-   .persona-grid {
-       display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-       gap: 1.5rem;
-   }
-   
-   .persona-card {
-       background-color: var(--mustard);
-       padding: 1rem;
-       border-radius: var(--radius);
-       border: 3px solid var(--ink);
-       box-shadow: var(--shadow-chunky);
-   }
-   
-   /* ---------- variation grid ---------- */
-   
-   .variation-grid {
-       display: grid;
-       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-       gap: 1.5rem;
-   }
-   
-   .variation-grid img {
-       width: 100%;
-       border-radius: var(--radius);
-       border: 3px solid var(--olive);
-       box-shadow: var(--shadow-chunky);
-   }
-   
-   /* ---------- feedback cards---------- */
-   
-   .feedback-grid {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       gap: 1.5rem;
-   }
-   
-   .feedback-card {
-       background-color: var(--peach);
-       padding: 1.5rem;
-       border-radius: var(--radius);
-       border: 3px solid var(--olive);
-       box-shadow: var(--shadow-chunky);
-   }
-   
-   /* ---------- storyboard ---------- */
-   
-   .storyboard-img {
-       width: 100%;
-       border-radius: var(--radius);
-       border: 3px solid var(--olive);
-       box-shadow: var(--shadow-chunky);
-       margin-top: 1rem;
    }
 
    footer{
