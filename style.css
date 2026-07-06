@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Changa+One:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Patrick+Hand+SC&family=Sekuya&family=Shrikhand&display=swap');
    :root {
-    --tomato: #C85555;
-    --mustard: #EAA624;
-    --olive: #767B39;
-    --sky: #AADCF2;
-    --peach: #F7BCB0;
-    --cream: #FFF7EB;
-    --ink: #2A2A2A;
 
     --radius: 14px;
     --shadow-chunky: 6px 6px 0px rgba(0,0,0,0.25);
@@ -152,9 +145,9 @@ h3{
 
 .project-info h3 {
     margin: 0 0 8px;
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 1.2rem;
-    color: var(--ink);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: black;
 }
 
 .project-info p {
@@ -228,7 +221,8 @@ h3{
 
 .writing-item h3 {
     margin: 0 0 8px;
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
 }
 
 .writing-item p {
@@ -238,7 +232,7 @@ h3{
 
 .writing-item a {
     font-weight: bold;
-    color: var(--ink);
+    color: black;
     text-decoration: underline;
 }
 
@@ -254,14 +248,11 @@ h3{
     border: 3px solid black;
     border-radius: 10px;
     font-weight: bold;
-    color: var(--ink);
+    color: black;
     transition: transform .25s ease, box-shadow .25s ease;
 }
 
-.writing-item:hover .writing-button {
-    transform: translate(-2px) scale(1.05);
-    box-shadow: 4px 4px 0px #B5838D;
-}
+
 
 
 
