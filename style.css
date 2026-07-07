@@ -5,6 +5,7 @@
     --shadow-chunky: 6px 6px 0px rgba(0,0,0,0.25);
 }
 .logo{
+    font-size: 2rem;
     font-family: Shrikhand;
     /* original theme */
     
@@ -40,7 +41,10 @@ body{
     font-weight: bold;
     border: 3px solid black;
     width: 200px;
+    height: 20px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     transition: transform 0.25s ease, box-shadow 0.25s 
     /* position: relative */
     /* overflow: visible; */
@@ -344,6 +348,6 @@ footer{
 
 
 
-
+/* cursor */
 
 

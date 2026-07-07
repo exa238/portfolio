@@ -12,6 +12,7 @@
    /* logo */
 
    .logo{
+    font-size: 2rem;
     font-family: Shrikhand;
     color: #2e211c;
     -webkit-text-stroke: 0.5px #9cbbb7;
@@ -32,7 +33,7 @@
         justify-content: center;
     }
     .nav li a {
-        display: block;
+        display: flex;
         padding: 10px 20px;
         border-radius: 10px;
         color: white;
@@ -40,7 +41,10 @@
         font-weight: bold;
         border: 3px solid black;
         width: 200px;
+        height: 20px;
         text-align: center;
+        align-items: center;
+        justify-content: center;
         transition: transform 0.25s ease, box-shadow 0.25s 
         /* position: relative */
         /* overflow: visible; */
