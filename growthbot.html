@@ -19,9 +19,9 @@
             </h1>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Writing</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -38,7 +38,7 @@
     <!-- ABOUT SECTION-->
     <section class="case-section" id="about">
         <h2>About the Project</h2>
-        <p>I created an interactive botanical diorama inspired by my love for plants and botany. My goal was to simulate plant growth using physical components, motion, and light — blending craft, electronics, and creative coding into a single immersive experience.<p>
+        <p>I created an interactive botanical diorama inspired by my love for plants and botany. My goal was to simulate plant growth using physical components, motion, and light, while blending craft, electronics, and creative coding into a single immersive experience.<p>
         <p>This project evolved through two major iterations. The first focused on motion and physical construction; the second expanded into lighting effects, ambient sound, and improved aesthetics.</p>
     </section>
 
@@ -99,7 +99,7 @@
         <h2>Fabrication and Prototyping</h2>
 
         <h3>Custom Leaf Creation</h3>
-        <li>I couldn’t find SVGs that matched the leaf shapes I wanted, so I drew them in Procreate. I I exported them and converted them to SVG using an online converter, and cut them using a Cricut, ultimately using two leaf designs in the final build. </li>
+        <p>I couldn’t find SVGs that matched the leaf shapes I wanted, so I drew them in Procreate. I I exported them and converted them to SVG using an online converter, and cut them using a Cricut, ultimately using two leaf designs in the final build. </p>
 
         <h3>Servo Setup & Code</h3>
         <p>I initially tried assigning separate variables for each servo. Eventually, I discovered all three could run smoothly without individual variable declarations. This simplified the code and reduced unnecessary complexity.</p>
@@ -181,7 +181,8 @@
             <li>Create a servo-powered sign</li>
         </ul>
 
-        <video 
+        <video
+            class="final-demo-video" 
             controls
             autoplay
             muted
@@ -196,13 +197,22 @@
     
 
     <!-- footer / contact -->
-    <footer id="contact">
-        <h2 class="section-title">Contact Me</h2>
-        <p>Let's create a new story.</p>
-        <a href="the.eandersonea@gmail.com" class="contact-btn">Email Me</a>
-        <a href="https://github.com/exa238" class="contact-btn">Check Out My Github</a>
-        <a href="http://www.linkedin.com/in/emily-anderson-09311224a" class="contact-btn">Connect With Me</a>
-    </footer>
+   <!-- footer / contact -->
+   <footer id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Let's create a new story.</p>
+    <div class="footer-icons">
+        <a href="the.eandersonea@gmail.com" target="_blank">
+            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/email-icon-removebg.png" alt="Email icon" class="footer-icon">
+        </a>
+        <a href="https://github.com/exa238" target="_blank">
+            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/github-icon.PNG" alt="GitHub icon" class="footer-icon">
+        </a>
+        <a href="http://www.linkedin.com/in/emily-anderson-09311224a" target="_blank">
+            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/linkedin-icon.PNG" alt="LinkedIn icon" class="footer-icon">
+        </a>
+    </div>
+</footer>
       
 
       
