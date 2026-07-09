@@ -324,6 +324,16 @@ footer{
 
 }
 
+.footer-icon.glow {
+    animation: glowPulse 1s ease-out;
+}
+
+@keyframes glowPulse {
+    0% { box-shadow: 0 0 0px #c06226; }
+    50% { box-shadow: 0 0 20px #c06226; }
+    100% { box-shadow: 0 0 0px #c06226; }
+}
+
 /* footer icons */
 
 .footer-icons {

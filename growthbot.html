@@ -1,224 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erudite Case Study</title>
-    <link rel="stylesheet" href="growthbot.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Erudite Case Study</title>
+        <link rel="stylesheet" href="growthbot.css">
+    </head>
+    <body>
 
 
 
-    <!-- NAVIGATION (optional) -->
-    <header>
-        <nav class="nav">
-            <h1 class="logo">
-                <a href="index.html" class="logo-link">Emily Anderson</a>
-            </h1>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <!-- NAVIGATION (optional) -->
+        <header>
+            <nav class="nav">
+                <h1 class="logo">
+                    <a href="index.html" class="logo-link">Emily Anderson</a>
+                </h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="#contact" id="contact-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!-- HERO / TITLE SECTION  -->
+        <!-- change the info here -->
+        <section class="case-hero">
+            <h1>Growthbot</h1>
+        </section>
+
+
+        <!-- ABOUT SECTION-->
+        <section class="case-section" id="about">
+            <h2>About the Project</h2>
+            <p>I created an interactive botanical diorama inspired by my love for plants and botany. My goal was to simulate plant growth using physical components, motion, and light, while blending craft, electronics, and creative coding into a single immersive experience.<p>
+            <p>This project evolved through two major iterations. The first focused on motion and physical construction; the second expanded into lighting effects, ambient sound, and improved aesthetics.</p>
+        </section>
+
+
+        <!-- PROBLEM & SOLUTION    -->
+        <section class="case-section" id="project-goals">
+            <h2>Project Goals</h2>
+
+            <div class="project-goals-list">
+                <ul>
+                    <li>Build a growth simulation using servos</li>
+                    <li>Design and fabricate custom plant leaves</li>
+                    <li>Create a visually appealing miniature garden</li>
+                    <li>Explore light and sound to enhance immersion</li>
+                    <li>Iterate based on challenges and discoveries</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- TARGET AUDIENCE-->
+        <section class="case-section" id="target-audience">
+            <h2>Target Audience</h2>
+            <!-- persona cards -->
+            <div class="persona-grid">
+                <div class="persona-card">
+                    <h3>Students</h3>
+                    <p>Students who are looking to collaborate and expand their knowledge on certain subjects.</p>
+                </div>
+                <div class="persona-card">
+                    <h3>Teachers</h3>
+                    <p>Educators who want to construct a digital studying space for their students to prepare for exams and quizzes.</p>
+                </div>
+                <div class="persona-card">
+                    <h3>Tutors</h3>
+                    <p>Tutors who want to organize sessions with students and share materials to help them better understand the subject at hand. </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- MY ROLE -->
+        <section class="case-section" id="team">
+            <h2>My Role</h2>
+            <ul class="team-list">
+                <li>Designer</li>
+                <li>Fabrication</li>
+                <li>Prototyping</li>
+                <li>Programming</li>
             </ul>
-        </nav>
-    </header>
+        </section>
 
 
 
-    <!-- HERO / TITLE SECTION  -->
-    <!-- change the info here -->
-    <section class="case-hero">
-        <h1>Growthbot</h1>
-    </section>
+        <!-- DESIGN PROCESS -->
+        <section class="case-section" id="design-process">
+            <h2>Fabrication and Prototyping</h2>
+
+            <h3>Custom Leaf Creation</h3>
+            <p>I couldn’t find SVGs that matched the leaf shapes I wanted, so I drew them in Procreate. I I exported them and converted them to SVG using an online converter, and cut them using a Cricut, ultimately using two leaf designs in the final build. </p>
+
+            <h3>Servo Setup & Code</h3>
+            <p>I initially tried assigning separate variables for each servo. Eventually, I discovered all three could run smoothly without individual variable declarations. This simplified the code and reduced unnecessary complexity.</p>
+
+            <h3>Physical Assembly</h3>
+            <p>I recycled an old blanket box as the base and convered the interior with construction paper. I used hot glue to glue the moss to the background and floor an created the plants' stems using lollipop sticks wrapped in green tape. Finally, I mounted servos to each of the stems and attched leaves to the servos, making sure to adjust the angles and heights with repeated testing.</p>
+
+            <h3>Lighting</h3>
+            <p>Added battery-operated fairy lights to the mossy background for a more aesthetically pleasing look.</p>
+        </section>
 
 
-    <!-- ABOUT SECTION-->
-    <section class="case-section" id="about">
-        <h2>About the Project</h2>
-        <p>I created an interactive botanical diorama inspired by my love for plants and botany. My goal was to simulate plant growth using physical components, motion, and light, while blending craft, electronics, and creative coding into a single immersive experience.<p>
-        <p>This project evolved through two major iterations. The first focused on motion and physical construction; the second expanded into lighting effects, ambient sound, and improved aesthetics.</p>
-    </section>
-
-
-    <!-- PROBLEM & SOLUTION    -->
-    <section class="case-section" id="project-goals">
-        <h2>Project Goals</h2>
-
-        <div class="project-goals-list">
+    <!-- ISSUES -->
+        <section class="case-section" id="issues">
+            <h2>Issues I Ran Into / What I Would Change</h2>
             <ul>
-                <li>Build a growth simulation using servos</li>
-                <li>Design and fabricate custom plant leaves</li>
-                <li>Create a visually appealing miniature garden</li>
-                <li>Explore light and sound to enhance immersion</li>
-                <li>Iterate based on challenges and discoveries</li>
+                <li>The box was too narrow, preventing me from adding a third leaf and servo</li>
+                <li>My hot glue gun broke mid-build, forcing me to use tape.</li>
+                <li>I wanted programmable LEDs instead of battery-operated lights</li>
+                <li>In my initial sketch and concept, I designed a servo-powered moving sign, but lacked time, space and adhesive strength</li>
+                <li>I wanted to experiment with ambient sound and incorporate bird calls using wav files </li>
             </ul>
-        </div>
-    </section>
+        </section>
 
 
-    <!-- TARGET AUDIENCE-->
-    <section class="case-section" id="target-audience">
-        <h2>Target Audience</h2>
-        <!-- persona cards -->
-        <div class="persona-grid">
-            <div class="persona-card">
-                <h3>Students</h3>
-                <p>Students who are looking to collaborate and expand their knowledge on certain subjects.</p>
-            </div>
-            <div class="persona-card">
-                <h3>Teachers</h3>
-                <p>Educators who want to construct a digital studying space for their students to prepare for exams and quizzes.</p>
-            </div>
-            <div class="persona-card">
-                <h3>Tutors</h3>
-                <p>Tutors who want to organize sessions with students and share materials to help them better understand the subject at hand. </p>
-            </div>
-        </div>
-    </section>
+        <!-- REVISION -->
+        <section class="case-section" id="revision">
+            <h2>Revision: Adding Light, Sound & Design Upgrades</h2>
+
+            <h3>Code Version 1</h3>
+            <p> I started with a solid white flashing LED. However, this didn't feel realistic and felt too artificial and flat. </p>
+
+            <h3>Code Version 2</h3>
+            <p>I shifted to a blue and white hue and added periodic irregular flashes. This created a much more convincing lightning effect. </p>
+            
+            <!-- sound exploration -->
+            <h3>Sound Exploration</h3>
+            <h4>WAV File Implementation</h4>
+            <p>I downloaded 16- bit, mono, 22,050 hz WAV files from freesound.org, and despite correct formatting, the files still wouldn't play</p>
+            
+            <h4>Manual Chirp Programming</h4>
+            <p>I tried incorporating the chirp sounds programmatically, however this aso fauled due to hardware limitations</p>
+
+            <h4>Final Sound Solution</h4>
+            <p>I played rainforest ambience from my computer during the demo</p>
+            <p>This was not ideal, but was effective for the presentation</p>
+            <!-- sound exploration -->
+            
+            <h3>Wiring Improvements</h3>
+            <p>I connected the servos to A1 and connected the LED panel via a separate male alligator clip to A2</p>
+            <p>I ensured proper grounding and breadboard routing, resolving earlier power conflicts</p>
 
 
+            <h3>Decorative Enhancements</h3>
+            <p>I added floral elements to the background, positioning ferns and other botanicals for depth.</p>
+            <p>I used hot glue to eliminate any visible tape and mounted the LED panel to the front interior wall for full-scene illumination</p>
 
-    <!-- MY ROLE -->
-    <section class="case-section" id="team">
-        <h2>My Role</h2>
-        <ul class="team-list">
-            <li>Designer</li>
-            <li>Fabrication</li>
-            <li>Prototyping</li>
-            <li>Programming</li>
-        </ul>
-    </section>
+            <h3>Lightning Test</h3>
+            <p>Before the final assembly, I ran a placement test to ensure the LED panel illuminated the entire diorama effectively.</p>
 
+            <h3>Final Updated Project</h3>
+            <p>The final version included: </p>
+            <ul>
+                <li>battery-operated ambient lights</li>
+                <li>LED lightning simulation</li>
+                <li>Upgraded foliage and moss</li>
+                <li>Ambient rainforest audio (external)</li>
+                <li>Cleaner, more polished visual design</li>
+            </ul>
+        </section>
 
+        <!-- DIFFERENCES PT 2 -->
+        <section class="case-section" id="differences">
+            <h2>Things I Would’ve Done Differently Following the Revision</h2>
+            <ul>
+                <li>Finally solve the WAV file playback issue</li>
+                <li>Build a larger box to accomodate wiring and a moving sign</li>
+                <li>Add another motion element (ex: a bird or fluttering leaf)</li>
+                <li>Create a servo-powered sign</li>
+            </ul>
 
-     <!-- DESIGN PROCESS -->
-    <section class="case-section" id="design-process">
-        <h2>Fabrication and Prototyping</h2>
-
-        <h3>Custom Leaf Creation</h3>
-        <p>I couldn’t find SVGs that matched the leaf shapes I wanted, so I drew them in Procreate. I I exported them and converted them to SVG using an online converter, and cut them using a Cricut, ultimately using two leaf designs in the final build. </p>
-
-        <h3>Servo Setup & Code</h3>
-        <p>I initially tried assigning separate variables for each servo. Eventually, I discovered all three could run smoothly without individual variable declarations. This simplified the code and reduced unnecessary complexity.</p>
-
-        <h3>Physical Assembly</h3>
-        <p>I recycled an old blanket box as the base and convered the interior with construction paper. I used hot glue to glue the moss to the background and floor an created the plants' stems using lollipop sticks wrapped in green tape. Finally, I mounted servos to each of the stems and attched leaves to the servos, making sure to adjust the angles and heights with repeated testing.</p>
-
-        <h3>Lighting</h3>
-        <p>Added battery-operated fairy lights to the mossy background for a more aesthetically pleasing look.</p>
-    </section>
-
-
-  <!-- ISSUES -->
-    <section class="case-section" id="issues">
-        <h2>Issues I Ran Into / What I Would Change</h2>
-        <ul>
-            <li>The box was too narrow, preventing me from adding a third leaf and servo</li>
-            <li>My hot glue gun broke mid-build, forcing me to use tape.</li>
-            <li>I wanted programmable LEDs instead of battery-operated lights</li>
-            <li>In my initial sketch and concept, I designed a servo-powered moving sign, but lacked time, space and adhesive strength</li>
-            <li>I wanted to experiment with ambient sound and incorporate bird calls using wav files </li>
-        </ul>
-    </section>
+            <video
+                class="final-demo-video" 
+                controls
+                autoplay
+                muted
+                playsinline
+                loop 
+                style="max-width:100%; height:auto;">
+                <source src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/growthbot-final.MOV" type="video/mp4">
+            </video> 
+        </section>
 
 
-    <!-- REVISION -->
-    <section class="case-section" id="revision">
-        <h2>Revision: Adding Light, Sound & Design Upgrades</h2>
-
-        <h3>Code Version 1</h3>
-        <p> I started with a solid white flashing LED. However, this didn't feel realistic and felt too artificial and flat. </p>
-
-        <h3>Code Version 2</h3>
-        <p>I shifted to a blue and white hue and added periodic irregular flashes. This created a much more convincing lightning effect. </p>
         
-        <!-- sound exploration -->
-        <h3>Sound Exploration</h3>
-        <h4>WAV File Implementation</h4>
-        <p>I downloaded 16- bit, mono, 22,050 hz WAV files from freesound.org, and despite correct formatting, the files still wouldn't play</p>
-        
-        <h4>Manual Chirp Programming</h4>
-        <p>I tried incorporating the chirp sounds programmatically, however this aso fauled due to hardware limitations</p>
 
-        <h4>Final Sound Solution</h4>
-        <p>I played rainforest ambience from my computer during the demo</p>
-        <p>This was not ideal, but was effective for the presentation</p>
-        <!-- sound exploration -->
-        
-        <h3>Wiring Improvements</h3>
-        <p>I connected the servos to A1 and connected the LED panel via a separate male alligator clip to A2</p>
-        <p>I ensured proper grounding and breadboard routing, resolving earlier power conflicts</p>
-
-
-        <h3>Decorative Enhancements</h3>
-        <p>I added floral elements to the background, positioning ferns and other botanicals for depth.</p>
-        <p>I used hot glue to eliminate any visible tape and mounted the LED panel to the front interior wall for full-scene illumination</p>
-
-        <h3>Lightning Test</h3>
-        <p>Before the final assembly, I ran a placement test to ensure the LED panel illuminated the entire diorama effectively.</p>
-
-        <h3>Final Updated Project</h3>
-        <p>The final version included: </p>
-        <ul>
-            <li>battery-operated ambient lights</li>
-            <li>LED lightning simulation</li>
-            <li>Upgraded foliage and moss</li>
-            <li>Ambient rainforest audio (external)</li>
-            <li>Cleaner, more polished visual design</li>
-        </ul>
-    </section>
-
-    <!-- DIFFERENCES PT 2 -->
-    <section class="case-section" id="differences">
-        <h2>Things I Would’ve Done Differently Following the Revision</h2>
-        <ul>
-            <li>Finally solve the WAV file playback issue</li>
-            <li>Build a larger box to accomodate wiring and a moving sign</li>
-            <li>Add another motion element (ex: a bird or fluttering leaf)</li>
-            <li>Create a servo-powered sign</li>
-        </ul>
-
-        <video
-            class="final-demo-video" 
-            controls
-            autoplay
-            muted
-            playsinline
-            loop 
-            style="max-width:100%; height:auto;">
-            <source src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/growthbot-final.MOV" type="video/mp4">
-        </video> 
-    </section>
-
-
-    
-
+        <!-- footer / contact -->
     <!-- footer / contact -->
-   <!-- footer / contact -->
-   <footer id="contact">
-    <h2 class="section-title">Contact Me</h2>
-    <p>Let's create a new story.</p>
-    <div class="footer-icons">
-        <a href="the.eandersonea@gmail.com" target="_blank">
-            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/email-icon-removebg.png" alt="Email icon" class="footer-icon">
-        </a>
-        <a href="https://github.com/exa238" target="_blank">
-            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/github-icon.PNG" alt="GitHub icon" class="footer-icon">
-        </a>
-        <a href="http://www.linkedin.com/in/emily-anderson-09311224a" target="_blank">
-            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/linkedin-icon.PNG" alt="LinkedIn icon" class="footer-icon">
-        </a>
-    </div>
-</footer>
-      
+    <footer id="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Let's create a new story.</p>
+            <div class="footer-icons">
+                <a href="mailto:the.eandersonea@gmail.com" target="_blank">
+                    <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/email-icon-removebg.png" alt="Email icon" class="footer-icon">
+                </a>
+                <a href="https://github.com/exa238" target="_blank">
+                    <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/github-icon.PNG" alt="GitHub icon" class="footer-icon">
+                </a>
+                <a href="http://www.linkedin.com/in/emily-anderson-09311224a" target="_blank">
+                    <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/linkedin-icon.PNG" alt="LinkedIn icon" class="footer-icon">
+                </a>
+            </div>
+        </footer>
 
-      
 
-      
+        <script src="script.js"></script>
+        
 
-      
-</body>
+        
+
+        
+
+        
+    </body>
 </html>

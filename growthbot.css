@@ -245,6 +245,16 @@ footer{
     cursor: pointer;
 }
 
+.footer-icon.glow {
+    animation: glowPulse 1s ease-out;
+}
+
+@keyframes glowPulse {
+    0% { box-shadow: 0 0 0px #c06226; }
+    50% { box-shadow: 0 0 20px #c06226; }
+    100% { box-shadow: 0 0 0px #c06226; }
+}
+
 .footer-icon:hover {
     transform: translate(-4px) scale(1.05);
     box-shadow: 6px 6px 0px #9cbbb7;

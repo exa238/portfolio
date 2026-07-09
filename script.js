@@ -14,6 +14,14 @@ document.querySelectorAll('.writing-item').forEach(item => {
     });
 });
 
+document.getElementById("contact-nav").addEventListener("click", function() {
+    const icons = document.querySelectorAll(".footer-icon");
+
+    icons.forEach(icon => {
+        icon.classList.add("glow");
+        setTimeout(() => icon.classList.remove("glow"), 1000); // 1 second glow
+    });
+});
 
 
 
