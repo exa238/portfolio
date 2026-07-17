@@ -19,7 +19,7 @@ document.getElementById("contact-nav").addEventListener("click", function() {
 
     icons.forEach(icon => {
         icon.classList.add("glow");
-        setTimeout(() => icon.classList.remove("glow"), 1000); // 1 second glow
+        setTimeout(() => icon.classList.remove("glow"), 1000); 
     });
 });
 
