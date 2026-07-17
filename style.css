@@ -25,54 +25,87 @@
 
 #hero{
 
-    display:grid;
+    display: grid;
 
-    grid-template-columns:1fr 1.5fr;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 
-    gap: 1.5rem;
+    gap: 32px;
 
-    align-items:center;
+    margin-top: 20px;
 
-    max-width:1200px;
+    padding-left: 10px;
 
-    margin:80px auto;
+    padding-right: 10px;
 
-    padding:0 10px;
-}
-
-.hero-content{
-
-    margin-left: 127px;
-
-    width:100%;
-
-    background:whitesmoke;
-
-    border:3px solid black;
-
-    border-radius:var(--radius);
-
-    box-shadow:6px 6px 0px black;
-
-    padding:50px;
-}
-
-.hero-content{
+    padding-top: 70px;
+    
     justify-content: center;
-    text-align: center;
+
+    background-color: #2e211c;
 }
+
+
+.monstera-graphic{
+    width: auto;
+    height: 650px;
+
+    
+}
+
+.hero-graphic-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+
+    position: relative;
+    top: -80px;
+
+    transform: translateX(-25px);
+    
+
+}
+
+
+.hero-content{
+
+
+    transform: translateX(-65px);
+
+    height: 250px;
+
+    /* width: 100%; */
+
+    background: whitesmoke;
+
+    border: 3px solid black;
+
+    border-radius: var(--radius);
+
+    box-shadow: 6px 6px 0px black;
+
+    padding: 50px;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+
 
 .hero-buttons{
 
-    display:flex;
+    display: flex;
 
-    justify-content:center;
+    justify-content: center;
 
-    gap:20px;
+    gap: 20px;
 
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 /* hero buttons */

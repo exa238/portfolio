@@ -98,6 +98,8 @@ body{
 .nav li:nth-child(3) a { background: #9cbbb7; }
 .nav li:nth-child(4) a { background: #984619; }
 
+
+
 .about-section{
     display:flex;
     justify-content:center;
