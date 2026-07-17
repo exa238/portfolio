@@ -20,6 +20,93 @@
     /* new theme */
     -webkit-text-stroke: 0.5px #9cbbb7;
 }
+
+/* HERO */
+
+#hero{
+
+    display:grid;
+
+    grid-template-columns:1fr 1.5fr;
+
+    gap: 1.5rem;
+
+    align-items:center;
+
+    max-width:1200px;
+
+    margin:80px auto;
+
+    padding:0 10px;
+}
+
+.hero-content{
+
+    margin-left: 127px;
+
+    width:100%;
+
+    background:whitesmoke;
+
+    border:3px solid black;
+
+    border-radius:var(--radius);
+
+    box-shadow:6px 6px 0px black;
+
+    padding:50px;
+}
+
+.hero-content{
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:40px;
+}
+
+/* hero buttons */
+.hero-buttons a{
+
+    display:inline-block;
+
+    padding:12px 24px;
+
+    border:3px solid black;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+    color:black;
+
+    background:#c06226;
+
+    box-shadow:4px 4px 0px black;
+
+    transition:transform .25s ease,
+               box-shadow .25s ease;
+}
+
+.hero-buttons a:hover{
+
+    transform:translate(-4px);
+
+    box-shadow:6px 6px 0px #9cbbb7;
+}
+
 body{
     background-size: 40px 40px;
     background-color: #FFFFFF;
@@ -48,11 +135,6 @@ body{
     transition: transform 0.25s ease, box-shadow 0.25s 
     /* position: relative */
     /* overflow: visible; */
-}
-
-.hero-content{
-    justify-content: center;
-    text-align: center;
 }
 
 .nav li a:hover::before,

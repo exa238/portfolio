@@ -28,14 +28,14 @@
 
 
 
-        <!-- HERO / TITLE SECTION  -->
+        <!-- hero and title section  -->
         <!-- change the info here -->
         <section class="case-hero">
             <h1>Growthbot</h1>
         </section>
 
 
-        <!-- ABOUT SECTION-->
+        <!-- about section-->
         <section class="case-section" id="about">
             <h2>About the Project</h2>
             <p>I created an interactive botanical diorama inspired by my love for plants and botany. My goal was to simulate plant growth using physical components, motion, and light, while blending craft, electronics, and creative coding into a single immersive experience.<p>
@@ -56,6 +56,17 @@
                     <li>Iterate based on challenges and discoveries</li>
                 </ul>
             </div>
+        </section>
+
+        <!-- MY ROLE -->
+        <section class="case-section" id="team">
+            <h2>My Role</h2>
+            <ul class="team-list">
+                <li>Designer</li>
+                <li>Fabrication</li>
+                <li>Prototyping</li>
+                <li>Programming</li>
+            </ul>
         </section>
 
 
@@ -81,33 +92,31 @@
 
 
 
-        <!-- MY ROLE -->
-        <section class="case-section" id="team">
-            <h2>My Role</h2>
-            <ul class="team-list">
-                <li>Designer</li>
-                <li>Fabrication</li>
-                <li>Prototyping</li>
-                <li>Programming</li>
-            </ul>
-        </section>
-
-
-
-        <!-- DESIGN PROCESS -->
+        <!-- design process -->
         <section class="case-section" id="design-process">
-            <h2>Fabrication and Prototyping</h2>
+            <h2>Design and Fabrication</h2>
+
+            <!-- insert image of the rough sketch? -->
+
+            <h3>Planning</h3>
+
+            <p>Explain the original concept</p>
+            <img src="https://pub-2d3aaae8ad984b4db5d45ea448ffca7a.r2.dev/growthbot-sketch.png" alt="Growthbot's original concept sketch">
+
 
             <h3>Custom Leaf Creation</h3>
             <p>I couldn’t find SVGs that matched the leaf shapes I wanted, so I drew them in Procreate. I I exported them and converted them to SVG using an online converter, and cut them using a Cricut, ultimately using two leaf designs in the final build. </p>
 
+
             <h3>Servo Setup & Code</h3>
+            <!-- servo and code images? --> 
             <p>I initially tried assigning separate variables for each servo. Eventually, I discovered all three could run smoothly without individual variable declarations. This simplified the code and reduced unnecessary complexity.</p>
 
             <h3>Physical Assembly</h3>
             <p>I recycled an old blanket box as the base and convered the interior with construction paper. I used hot glue to glue the moss to the background and floor an created the plants' stems using lollipop sticks wrapped in green tape. Finally, I mounted servos to each of the stems and attched leaves to the servos, making sure to adjust the angles and heights with repeated testing.</p>
 
             <h3>Lighting</h3>
+            <!-- assembly photos -->
             <p>Added battery-operated fairy lights to the mossy background for a more aesthetically pleasing look.</p>
         </section>
 
@@ -130,17 +139,21 @@
             <h2>Revision: Adding Light, Sound & Design Upgrades</h2>
 
             <h3>Code Version 1</h3>
+            <!-- image?-->
             <p> I started with a solid white flashing LED. However, this didn't feel realistic and felt too artificial and flat. </p>
 
             <h3>Code Version 2</h3>
+            <!-- image? -->
             <p>I shifted to a blue and white hue and added periodic irregular flashes. This created a much more convincing lightning effect. </p>
             
             <!-- sound exploration -->
             <h3>Sound Exploration</h3>
             <h4>WAV File Implementation</h4>
+            <!-- image? -->
             <p>I downloaded 16- bit, mono, 22,050 hz WAV files from freesound.org, and despite correct formatting, the files still wouldn't play</p>
             
             <h4>Manual Chirp Programming</h4>
+            <!-- image? -->
             <p>I tried incorporating the chirp sounds programmatically, however this aso fauled due to hardware limitations</p>
 
             <h4>Final Sound Solution</h4>
@@ -149,15 +162,18 @@
             <!-- sound exploration -->
             
             <h3>Wiring Improvements</h3>
+            <!-- image? -->
             <p>I connected the servos to A1 and connected the LED panel via a separate male alligator clip to A2</p>
             <p>I ensured proper grounding and breadboard routing, resolving earlier power conflicts</p>
 
 
             <h3>Decorative Enhancements</h3>
+            <!-- image? -->
             <p>I added floral elements to the background, positioning ferns and other botanicals for depth.</p>
             <p>I used hot glue to eliminate any visible tape and mounted the LED panel to the front interior wall for full-scene illumination</p>
 
             <h3>Lightning Test</h3>
+            <!-- video? -->
             <p>Before the final assembly, I ran a placement test to ensure the LED panel illuminated the entire diorama effectively.</p>
 
             <h3>Final Updated Project</h3>
