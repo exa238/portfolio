@@ -91,7 +91,7 @@
 
 
 
-/* ---------- background ---------- */
+/*  background  */
    
 body {
     margin: 0;
@@ -101,7 +101,7 @@ body {
     background-color: white;
 }
    
-/* ---------- section ---------- */
+/*  section  */
    
 .case-section {
     max-width: 1200px;
@@ -113,7 +113,7 @@ body {
     box-shadow: 6px 6px 0px black;
 }
    
-/* ---------- headers ---------- */
+/*  headers  */
    
 .case-section h2 {
     font-family: "Inter", serif;
@@ -135,14 +135,14 @@ body {
     color: var(--tomato);
 } */
    
-/* ---------- hero---------- */
+/*  hero */
    
 .case-hero {
     text-align: center;
     padding: 2rem 2rem;
 }
    
-/* ---------- column layouts---------- */
+/*  column layouts */
    
 .two-col {
     display: grid;
@@ -157,7 +157,7 @@ body {
     box-shadow: var(--shadow-chunky);
 }
    
-/* ---------- persona cards---------- */
+/*  persona cards */
    
 .persona-grid {
     display: grid;
@@ -173,7 +173,7 @@ body {
     box-shadow: var(--shadow-chunky);
 }
    
-/* ---------- variation grid ---------- */
+/*  variation grid  */
    
 .variation-grid {
     display: grid;
@@ -188,7 +188,7 @@ body {
     box-shadow: var(--shadow-chunky);
 }
    
-/* ---------- feedback cards---------- */
+/*  feedback cards */
    
 .feedback-grid {
     display: grid;
@@ -203,16 +203,147 @@ body {
     box-shadow: var(--shadow-chunky);
 }
    
-/* ---------- storyboard ---------- */
-   
-.storyboard-img {
-    width: 100%;
-    border-radius: var(--radius);
-    border: 3px solid black;
-    box-shadow: var(--shadow-chunky);
-    margin-top: 1rem;
+.original-concept-image{
+    display: flex;
+    justify-content: center;
 }
 
+.planning-image{
+    width: 800px;
+    height: auto;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+
+}
+
+
+.leaf-design-images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+
+.image-row{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.diorama-images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.programming-single-row{
+    display: flex;
+    justify-content: center;
+}
+
+.programming-single{
+
+    width: 800px;
+    height: auto;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.building-image{
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.lighting-images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+
+}
+
+.programming-image-row{
+    width: 600px;
+    height: auto;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.wiring-improvements{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.decorative-row{
+    display: flex;
+    justify-content: center;
+}
+
+.decorative-single{
+    width: 800px;
+    height: auto;
+    object-fit: contain;
+    background: white;
+
+    border: 3px solid black;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-chunky);
+
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+ 
+
+
+/* footer */
 footer{
     padding-top: 1.5in;
     padding-bottom: 30px;
