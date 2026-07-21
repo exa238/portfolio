@@ -7,17 +7,10 @@
 .logo{
     font-size: 2rem;
     font-family: Shrikhand;
-    /* original theme */
     
-    /* color: black; */
-
-    /* new theme */
     color: #2e211c;
 
 
-    /* original theme */
-    /* -webkit-text-stroke: 0.5px #E5989B; */
-    /* new theme */
     -webkit-text-stroke: 0.5px #9cbbb7;
 }
 
